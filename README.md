@@ -13,7 +13,7 @@ npm install superagent-xml2jsparser
 
 ## Motivation
 
-I needed to access an XML based API with Super Agent
+I needed to access an XML based API with superagent.  This seemed the simplest thing to do
 
 ## Usage
 
