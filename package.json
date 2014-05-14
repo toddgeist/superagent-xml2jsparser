@@ -1,6 +1,6 @@
 {
   "name": "superagent-xml2jsparser",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "an xml to jason parser for superagent",
   "main": "index.js",
   "dependencies": {
