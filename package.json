@@ -1,0 +1,26 @@
+{
+  "name": "superagent-xml2jsparser",
+  "version": "0.1.0",
+  "description": "an xml to jason parser for superagent",
+  "main": "index.js",
+  "dependencies": {
+    "xml2js": "~0.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/toddgeist/superagent-xml2jsparser.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Todd Geist <todd@geistinteractive.com> (http://www.geistinteractive.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toddgeist/superagent-xml2jsparser/issues"
+  },
+  "homepage": "https://github.com/toddgeist/superagent-xml2jsparser"
+}
