@@ -1,4 +1,30 @@
 superagent-xml2jsparser
 =======================
 
-a parser for visionmedia/superagent that converts XML to json
+a parser for visionmedia/superagent that converts XML to json.
+
+## Installation
+
+with npm
+
+```js
+npm install superagent-xml2jsparser
+```
+
+## Motivation
+
+I needed to access an XML based API with Super Agent
+
+## Usage
+
+```js
+request = require('superagent');
+xml2jsParser = require('superagent-xml2jsparser');
+
+request
+    .get('http://api.openweathermap.org/data/2.5/weather?q=Los Angeles&mode=xml')
+    .accept('xml')
+    .parse(xml2jsParser) // add the parser function
+    .end(function(err, res){
+        console.log(res.body)
+    })```
