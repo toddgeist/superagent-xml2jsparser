@@ -1,7 +1,7 @@
 superagent-xml2jsparser
 =======================
 
-a parser for (visionmedia/superagent)[https://github.com/visionmedia/superagent] that converts XML to json. It uses (xml2js)[https://github.com/Leonidas-from-XIV/node-xml2js]
+a parser for [visionmedia/superagent](https://github.com/visionmedia/superagent) that converts XML to json. It uses [xml2js](https://github.com/Leonidas-from-XIV/node-xml2js)
 
 ## Installation
 
