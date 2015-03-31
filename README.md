@@ -18,8 +18,8 @@ I needed to access an XML based API with superagent.  This seemed the simplest t
 ## Usage
 
 ```js
-request = require('superagent');
-xml2jsParser = require('superagent-xml2jsparser');
+var request = require('superagent');
+var xml2jsParser = require('superagent-xml2jsparser');
 
 request
     .get('http://api.openweathermap.org/data/2.5/weather?q=Los Angeles&mode=xml')
